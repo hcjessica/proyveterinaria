@@ -1,1 +1,7 @@
-Avance Splash-Login- Mysql
+
+echo # ProyVeterinariaAvance >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/missdulzura/ProyVeterinariaAvance.git
+git push -u origin master
