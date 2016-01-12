@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/txtinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/registro_info"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edNomUser"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edApeUser"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="6dp"
+            android:ems="10"
+            android:hint="@string/apellido"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtinfoescogetomate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+
+            android:text="@string/fotoperfil" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnquierofoto"
+            style="@style/BotonesPequeños"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/quierofoto" />
+
+
+        <ImageView
+            android:id="@+id/imagePerfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="80dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edCorUser"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/edPassUser"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/Contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtopcionalinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/opcional_info"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/edPhoneUser"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btncrearcta"
+        style="@style/BotonesNormales"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPhoneUser"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/crear_cuenta" />
+</LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtruta"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="105dp"
+       />
+</RelativeLayout>

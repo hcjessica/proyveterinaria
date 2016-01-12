@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Presentation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/seminaranja</item>
+    </style>
+
+    <style name="general" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="BotonesPequeños">
+        <item name="android:background">@color/naranja</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_width">@dimen/btnsmallwidth</item>
+        <item name="android:layout_height">@dimen/btnsmallheight</item>
+    </style>
+
+    <style name="BotonesNormales" parent="BotonesPequeños">
+        <item name="android:background">@color/naranja</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_width">@dimen/btnnormalwidth</item>
+        <item name="android:layout_height">@dimen/btnnormalheight</item>
+    </style>
+
+    <style name="FotoUserRegistro">
+        <item name="android:layout_width">@dimen/fotoregistrowidth</item>
+        <item name="android:layout_height">@dimen/fotoregistroheight</item>
+    </style>
+
+    <style name="FotoPata">
+        <item name="android:drawable">@drawable/patacat</item>
+        <item name="android:layout_marginLeft">@dimen/activity_vertical_margin</item>
+
+    </style>
+
+
+    <style name="CajaTextoRegistro">
+        <item name="android:layout_width">@dimen/edregistro</item>
+    </style>
+
+</resources>

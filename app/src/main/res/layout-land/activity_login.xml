@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Veterinaria"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/perros_vs_gatos"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btningresar"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:background="@color/negro"
+            android:text="@string/ingresar"
+            android:textColor="@color/blanco"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnregistrar"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:background="@color/naranja"
+            android:text="@string/crear_cuenta"
+            android:textColor="@color/blanco"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

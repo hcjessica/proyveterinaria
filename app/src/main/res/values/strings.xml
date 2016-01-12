@@ -1,0 +1,39 @@
+<resources>
+    <!--Application's Name-->
+    <string name="app_name">Clínica Veterinaria</string>
+
+    <!--Details ActionBar-->
+    <string name="action_settings">Configuraciones</string>
+
+    <!--LoginPrincipal-->
+    <string name="bienvenido">¡Bienvenido !</string>
+    <string name="login_info">Para ingresar  previamente  debe estar registrado</string>
+
+    <!--Registro-->
+    <string name="registro_info">Necesitas tener creada una cuenta para acceder \n a la aplicación</string>
+    <string name="crear_cuenta">CREAR CUENTA</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="nombre">Nombre</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="phone">Teléfono</string>
+    <string name="opcional_info">*Opcional</string>
+    <string name="olvidastes_contraseña">¿Olvidastes tu Contraseña?</string>
+
+    <string name="fotoperfil">Elige o tómate una foto como imagen de perfil</string>
+    <string name="quierofoto">¡Quiero Una Foto de Perfil!</string>
+    <string name="repitepass">Repite la contraseña</string>
+    <string name="apellido">Apellidos</string>
+
+    <string name="ruta">Ruta</string>
+
+    <!--Uploading a photo  to  user-->
+    <string name="subefotoinfo">Sube una foto de la galería</string>
+    <string name="tomafotoinfo">Toma una foto desde  tu cámara</string>
+    <string name="subir">SUBIR FOTO</string>
+    <string name="tomar">TOMAR FOTO</string>
+    <string name="miperfilfotoinfo">Mi imagen de perfil</string>
+    <string name="aceptar">ACEPTAR</string>
+
+</resources>

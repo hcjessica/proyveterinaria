@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--BTN SMALL-->
+    <dimen name="btnsmallwidth">120dp</dimen>
+    <dimen name="btnsmallheight">45dp</dimen>
+
+
+    <dimen name="fotoregistrowidth">250dp</dimen>
+    <dimen name="fotoregistroheight">250dp</dimen>
+
+    <!--BTN NORMAL-->
+    <dimen name="btnnormalwidth">140dp</dimen>
+    <dimen name="btnnormalheight">50dp</dimen>
+
+    <dimen name="edregistro">500dp</dimen>
+</resources>

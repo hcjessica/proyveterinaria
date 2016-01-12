@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seminaranja"
+    android:layout_gravity="center_vertical"
+    >
+
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/miperfilfotoinfo"
+        android:id="@+id/txtinfomifoto"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageVFotoUser"
+       android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/subefotoinfo"
+            android:id="@+id/txtinfosubir"
+
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/tomafotoinfo"
+            android:id="@+id/txtinfotomar"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+
+            />
+        </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="@dimen/activity_vertical_margin"
+       android:layout_gravity="center_horizontal">
+
+    <Button
+        style="@style/BotonesPequeños"
+        android:text="@string/subir"
+        android:id="@+id/btnsubir"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        />
+
+    <Button
+        style="@style/BotonesPequeños"
+        android:text="@string/tomar"
+        android:id="@+id/btntomar"
+        android:layout_gravity="right"
+        android:layout_marginLeft="70dp"
+
+        />
+   </LinearLayout>
+
+        <Button
+            style="@style/BotonesNormales"
+            android:text="@string/aceptar"
+            android:id="@+id/btnaceptarfoto"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/patacat"
+            />
+   </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/rabbit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_info"
+        android:id="@+id/login_info"
+        android:gravity="center"
+        android:layout_marginTop="151dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/rectangulolinear"
+        android:textColor="@color/blanco"
+
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+    android:layout_width="290dp"
+    android:layout_height="180dp"
+    android:layout_marginTop="1dp"
+
+    android:orientation="vertical"
+   android:layout_gravity="center_horizontal"
+    >
+
+
+        <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_correo"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blanco"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/negro"
+        android:hint="@string/correo"
+        android:textSize="12dp"
+        />
+
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_contraseña"
+        android:background="@color/blanco"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:textColor="@color/negro"
+        android:inputType="textPassword"
+        android:hint="@string/Contraseña"
+        android:textSize="12dp"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:text="@string/ingresar"
+        android:id="@+id/btn_ing"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/blanco"
+        android:background="@color/naranja"
+        />
+    </LinearLayout>
+</LinearLayout>
